@@ -16,7 +16,7 @@ const FilterPanel = props => {
       </div>
       {/* Cuisins */}
       <div className="input-group">
-        <p className="label">Cuisins</p>
+        <p className="label">Cuisines</p>
         {cuisines.map(cuisine => (
           <CheckBoxCuisins key={cuisine.id} cuisine={cuisine} changeChecked={changeChecked} />
         ))}
